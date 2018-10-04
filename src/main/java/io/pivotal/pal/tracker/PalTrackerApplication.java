@@ -31,5 +31,6 @@ public class PalTrackerApplication {
                 .featuresToDisable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS) //ISODate
                 .modules(new JavaTimeModule())
                 .build();
+        
     }
 }
